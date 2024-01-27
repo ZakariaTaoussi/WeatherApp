@@ -1,0 +1,129 @@
+.container {
+  
+    width: 600px;
+    height: 200px;
+    margin: auto;
+    border-radius: 15px;
+    margin-top: 75px;
+    background-image: linear-gradient(180deg, #17043d 0%, #500f70 100%);
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    transition: background-image 0.3s ease-in-out;
+}
+.error-message{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 400;
+    margin-top:100px;
+    color: #c5cae9;
+}
+
+
+.Search-bar {
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    padding-top: 60px;
+}
+
+.Search-bar input {
+    display: flex;
+    width: 300px;
+    height: 70px;
+    border: none;
+    background-color: #c5cae9;
+    outline: none;
+    border-radius: 40px;
+    padding-left: 40px;
+    color: #424242;
+    font-size: 20px;
+    font-weight: 400;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.Search-bar input:focus {
+    background-color: #9fa8da;
+}
+
+.Search-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    background: #c5cae9;
+    cursor: pointer;
+    border-radius: 40px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.Search-icon:hover {
+    transform: scale(1.1);
+}
+
+.Weather-image {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.weather-temp {
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.weather-location {
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.Data-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    color: #c5cae9;
+}
+
+.Element {
+    margin: auto;
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.data {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.text {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.icon {
+    margin-top: 10px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.icon:hover {
+    transform: scale(1.1);
+}
+.container {
+    /* ... existing styles ... */
+    transition: height 0.3s ease-in-out;
+  }
+  
+ 
+  
+  .container.data-available {
+    height: 800px; /* Adjust this value as needed when data is available */
+  }
